@@ -1,0 +1,16 @@
+.tabs {
+  min-height: initial;
+}
+
+.tab {
+  min-height: initial;
+  opacity: 0.7;
+  & svg {
+    font-size: 20px;
+    margin-bottom: "2px";
+  }
+}
+
+.active {
+  opacity: 1;
+}
